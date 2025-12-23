@@ -1,0 +1,36 @@
+/* Base Styles (Mobile: < 768px) */
+body { font-size: 16px; }
+
+/* Tablet Styles (Min-width: 768px) */
+@media (min-width: 768px) {
+  body { font-size: 18px; }
+}
+
+
+/*Grid for portfolio items */
+
+
+/* Desktop Styles (Min-width: 1024px) */
+@media (min-width: 1024px) {
+  body { font-size: 20px; }
+}
+.portfolio-container {
+  display: grid;
+  gap: 20px;
+  /* Mobile: Single column by default */
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .portfolio-container {
+    /* Tablet: Two columns */
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio-container {
+    /* Desktop: Three columns */
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
