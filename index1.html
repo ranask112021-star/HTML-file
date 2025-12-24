@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio | MERN Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js-basics.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Developer Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a MERN stack developer in training, focused on building scalable and efficient web applications.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Technology</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Frontend</td>
+                        <td>HTML5, CSS3, React</td>
+                    </tr>
+                    <tr>
+                        <td>Backend</td>
+                        <td>Node.js, Express</td>
+                    </tr>
+                    <tr>
+                        <td>Database</td>
+                        <td>MySQL, MongoDB</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="user_name" placeholder="Name" required>
+                </div><br>
+
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="user_email" placeholder="Email" required>
+                </div><br>
+
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="user_message" rows="4" placeholder="How can I help you?"></textarea>
+                </div><br>
+
+                <button type="submit">Send Inquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MERN Training Journey. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
