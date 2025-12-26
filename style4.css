@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+table th,
+table td {
+  vertical-align: middle;
+}
+
+.grade-A {
+  color: green;
+  font-weight: bold;
+}
+
+.grade-B {
+  color: blue;
+  font-weight: bold;
+}
+
+.grade-C {
+  color: orange;
+  font-weight: bold;
+}
+
+.grade-Fail {
+  color: red;
+  font-weight: bold;
+}
