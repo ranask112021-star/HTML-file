@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+
+.status-card { background: #e8f4fd; padding: 10px; border-radius: 8px; margin-bottom: 20px; }
+
+.task-list { list-style: none; padding: 0; }
+
+.task-list li {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tag { padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; }
+.success { background: #27ae60; color: white; }
+.pending { background: #f1c40f; color: black; }

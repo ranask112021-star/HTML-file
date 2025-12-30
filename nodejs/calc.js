@@ -28,7 +28,15 @@ switch (operator) {
 }
 
 console.log(`Result: ${result}`);
+// calc.js
+const mathFunctions = {
+    add: (a, b) => a + b,
+    subtract: (a, b) => a - b,
+    multiply: (a, b) => a * b
+};
 
+// Ye line sabse zaruri hai: Isse hi doosri files iska data use kar pati hain
+module.exports = mathFunctions;
 
 // node calc.js 15+8
 //Node.js Runtime and Core Concepts
